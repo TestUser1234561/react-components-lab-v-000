@@ -22,7 +22,12 @@ export class OlderCoaster extends React.Component {
 }
 
 export class InFrontOfYou extends React.Component {
-  // your code here
+  return(
+      <div>
+      <p>You shouldn\'t look too far.</p>
+      <p>Sometimes, the solution is right in front of you.</p>
+      </div>
+  )
 }
 
 export class ButcherShop extends React.Component {
